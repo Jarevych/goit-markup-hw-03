@@ -63,6 +63,9 @@ h2 {
 .features {
     margin-top: 120px;
 }
+.features-title {
+    margin-bottom: 8px;
+}
 .about-us {
     padding: 120px 0;
 }
