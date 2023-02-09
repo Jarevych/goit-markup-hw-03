@@ -1,0 +1,245 @@
+:root {
+    --clr-main: #434455;
+    --clr-dmain: #2E2F42;
+    --clr-btn-hvr: #FFFFFF;
+    --clr-btn: #4D5AE5;
+    --clr-link: #404BBF;
+    
+}
+body {
+    font-family: "Roboto";
+    color: var(--clr-main);
+}
+ul {
+    list-style: none;
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--clr-dmain); 
+}
+.container {
+    width: 100%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+.header {
+    /* width: 1440px;
+    height: 72px; */
+    background: #fff;
+    border-bottom: 1px solid #E7E9FC;
+    border: 1px;
+    padding: 24px 15px;
+    display: flex;
+    align-items: baseline;
+}
+/* .header .nav-items address {
+    margin: 0;
+} */
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-grow: 1;
+}
+.header>.container{
+    display: flex;
+    align-items: baseline;
+    }
+.works-title {
+    display: flex;
+    margin: 72px;
+    justify-content: center;
+}
+.ourworks {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+.address {
+    margin: 0;
+}
+/*логотип хедера*/
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: var(--clr-btn);
+    text-decoration: none;
+}
+
+.header-logo {
+    /* font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase; */
+    color: var(--clr-dmain);
+    text-decoration: none;
+}
+/* index hero */
+.hero {
+    width: 100%;
+    background-color: var(--clr-dmain);
+    align-items: center;
+    padding: 188px 0;
+}
+.hero h1{
+    font-size: 56px;
+    line-height: 60px;
+    width: 494px;
+    color: var(--clr-btn-hvr);
+    /* display: flex; */
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.order-btn:hover,
+.order-btn:focus {
+    background-color: var(--clr-link);
+}
+.order-btn {
+    color: var(--clr-btn-hvr);
+    background-color: var(--clr-btn);
+    width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+.features-list h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.features-list p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--clr-main);
+}
+.employee {
+    background-color: #F4F4FD;
+    display: flex;
+}
+.employee h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--clr-dmain);
+    font-weight: 500;
+}
+.employee p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--clr-main);
+}
+/* .employee-list {
+    background-color: #FFFFFF;
+} */
+.empl-item {
+    background-color: var(--clr-btn-hvr);
+}
+/**/
+/*навігація*/
+.site-nav {
+    font-style: unset;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    display: flex;
+    margin: 0;
+    
+}
+.site-nav-btn {
+    text-decoration: none;
+    color: var(--clr-dmain);
+    padding: 24px 20px;
+    /* display:inline; */
+}
+.site-nav-btn:hover,
+.site-nav-btn:focus {
+    color: var(--clr-link);
+}
+/* адреса */
+.address {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+}
+.address-link {
+    color: var(--clr-main);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--clr-link);
+}
+
+/* кнопки фільтру */
+.filters {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+}
+.btn-all:hover,
+.btn-all:focus {
+    background-color: var(--clr-link);
+    color: var(--clr-btn-hvr);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.btn-all {
+    background-color: #F4F4FD;
+    color: var(--clr-btn);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio a {
+    text-decoration: none;
+}
+.portfolio img {
+    width: 360px;
+}
+.portfolio h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--clr-dmain);
+    letter-spacing: 0.02em;
+}
+.portfolio p {
+    color: var(--clr-main);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer {
+    /* width: 1440px; */
+    background-color: var(--clr-dmain);
+    color: #E7E9FC;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer-logo {
+    color: #F4F4FD;
+}
