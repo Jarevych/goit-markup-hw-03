@@ -4,7 +4,6 @@
     --clr-btn-hvr: #FFFFFF;
     --clr-btn: #4D5AE5;
     --clr-link: #404BBF;
-    
 }
 h1,
 h2,
@@ -13,10 +12,6 @@ p
  {
     margin: 0;
 }
-
-/* img {
-    display: block;
-} */
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +46,6 @@ h2 {
     display: flex;
     align-items: baseline;
 }
-
 .nav-items {
     display: flex;
     flex-direction: row;
@@ -95,14 +89,7 @@ h2 {
     color: var(--clr-btn);
     text-decoration: none;
 }
-
 .header-logo {
-    /* font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    text-transform: uppercase; */
     color: var(--clr-dmain);
     text-decoration: none;
 }
@@ -118,10 +105,8 @@ h2 {
     line-height: 60px;
     width: 494px;
     color: var(--clr-btn-hvr);
-    /* display: flex; */
     margin: 0 auto;
     text-align: center;
-    
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -165,12 +150,10 @@ h2 {
     flex-direction: row;
     padding: 120px 0;
 }
-
 .employee p {
     font-size: 16px;
     line-height: 1.5;
     color: var(--clr-main);
-   
 }
 .employee-list {
     display: flex;
@@ -181,7 +164,6 @@ h2 {
     background-color: #F4F4FD;
 }
 .empl-item {
-    /* padding-right: 24px; */
     background-color: var(--clr-btn-hvr);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -196,8 +178,6 @@ h2 {
     color: var(--clr-dmain);
     font-weight: 500;
 }
-/**/
-/*навігація*/
 .site-nav {
     font-style: unset;
     font-size: 16px;
@@ -205,7 +185,6 @@ h2 {
     font-weight: 500;
     display: flex;
     margin-left: 40px;
-    
 }
 .site-nav-btn {
     text-decoration: none;
@@ -217,7 +196,6 @@ h2 {
 .site-nav-btn:focus {
     color: var(--clr-link);
 }
-/* адреса */
 .address {
     display: flex;
     align-items: flex-end;
@@ -237,7 +215,6 @@ h2 {
 .portfolio-section {
     padding: 96px 0 120px 0;
 }
-/* кнопки фільтру */
 .filters {
     font-size: 16px;
     line-height: 1.5;
@@ -257,6 +234,7 @@ h2 {
 }
 .btn-all {
     font-family: "Roboto";
+    font-weight: 500;
     background-color: #F4F4FD;
     color: var(--clr-btn);
     border: 1px solid #E7E9FC;
@@ -266,7 +244,6 @@ h2 {
 }
 .container-portfolio {
     display: flex;
-   
 }
 .portfolio {
     display: flex;
@@ -275,7 +252,6 @@ h2 {
     /* flex-basis: calc((100%-48)/3); */
     padding: 0;
     margin: 0;
-    
 }
 .portfolio a {
     text-decoration: none;
@@ -307,13 +283,11 @@ h2 {
     padding-bottom: 8px;
 }
 .portfolio-list {
-    /* border: 1px solid #E7E9FC; */
     display: flex;
     width: 360px;
     padding-bottom: 24px;
 }
 .footer {
-    /* width: 1440px; */
     background-color: var(--clr-dmain);
     color: #E7E9FC;
     font-size: 16px;
